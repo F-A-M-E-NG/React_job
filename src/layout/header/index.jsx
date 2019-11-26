@@ -78,44 +78,29 @@ class Header extends Component {
     let navigation = (
       <ul>
         <li>
-          <a className="nav-link" href="#default">
+          <Link className="nav-link" to="/save">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="nav-link" href="#about">
-            About
-          </a>
+          <Link className="nav-link" to="/products">
+            Save
+          </Link>
         </li>
         <li>
-          <a className="nav-link" href="#features">
-            Features
-          </a>
+          <Link className="nav-link" to="/">
+            Invest
+          </Link>
         </li>
         <li>
-          <a className="nav-link" href="#project">
-            Project
-          </a>
+          <Link className="nav-link" to="/team">
+            Loan
+          </Link>
         </li>
         <li>
-          <a className="nav-link" href="#steps">
-            Steps
-          </a>
-        </li>
-        <li>
-          <a className="nav-link" href="#road_map">
-            Road Map
-          </a>
-        </li>
-        <li>
-          <a className="nav-link" href="#tokens">
-            Tokens
-          </a>
-        </li>
-        <li>
-          <a className="nav-link" href="#news">
-            News
-          </a>
+          <Link className="nav-link" to="/about">
+            About Us
+          </Link>
         </li>
       </ul>
     );

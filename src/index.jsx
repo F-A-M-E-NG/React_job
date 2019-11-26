@@ -16,6 +16,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './assets/css/animate.css';
 import './assets/css/style.css';
 import './assets/css/responsive.css';
+// import "./assets/css/HTWF/style.css"
+// import	"./assets/css/HTWF/css/content-box.css"
+// import "./assets/css/HTWF/css/image-box.css"
+// import "./assets/css/HTWF/css/animations.css"
+// import "./assets/css/HTWF/css/components.css"
+// // import "./assets/css/HTWF/scripts/flexslider/flexslider.css"
+// import "./assets/css/HTWF/scripts/magnific-popup.css"
+// import "./assets/css/HTWF/scripts/php/contact-form.css"
+// import "./assets/css/HTWF/scripts/social.stream.css"
+// import "./assets/css/skin.css"
+// import "./assets/css/HTWF/css/style.css"
 
 const App = lazy(() => import("./App/App"))
 
